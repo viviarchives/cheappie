@@ -14,6 +14,14 @@
 		48F30D372C6DC5C100D63A4F /* cheappieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F30D362C6DC5C100D63A4F /* cheappieTests.swift */; };
 		48F30D412C6DC5C100D63A4F /* cheappieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F30D402C6DC5C100D63A4F /* cheappieUITests.swift */; };
 		48F30D432C6DC5C100D63A4F /* cheappieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F30D422C6DC5C100D63A4F /* cheappieUITestsLaunchTests.swift */; };
+		48F30D6A2C6DE84700D63A4F /* PublicSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D612C6DE7F200D63A4F /* PublicSans-Bold.ttf */; };
+		48F30D6B2C6DE84700D63A4F /* PublicSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D622C6DE7F200D63A4F /* PublicSans-Medium.ttf */; };
+		48F30D6D2C6DE84700D63A4F /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D632C6DE7F200D63A4F /* PublicSans-Regular.ttf */; };
+		48F30D6E2C6DE84700D63A4F /* PublicSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D642C6DE7F200D63A4F /* PublicSans-SemiBold.ttf */; };
+		48F30D6F2C6DE84700D63A4F /* PublicSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D5F2C6DE7F200D63A4F /* PublicSans-BoldItalic.ttf */; };
+		48F30D702C6DE84700D63A4F /* PublicSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D692C6DE84300D63A4F /* PublicSans-Italic.ttf */; };
+		48F30D712C6DE84700D63A4F /* PublicSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48F30D662C6DE7F200D63A4F /* PublicSans-SemiBoldItalic.ttf */; };
+		48F30D732C6DE96300D63A4F /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F30D722C6DE96300D63A4F /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,15 @@
 		48F30D3C2C6DC5C100D63A4F /* cheappieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cheappieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F30D402C6DC5C100D63A4F /* cheappieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheappieUITests.swift; sourceTree = "<group>"; };
 		48F30D422C6DC5C100D63A4F /* cheappieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheappieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48F30D542C6DCED500D63A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		48F30D5F2C6DE7F200D63A4F /* PublicSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-BoldItalic.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		48F30D612C6DE7F200D63A4F /* PublicSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-Bold.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-Bold.ttf"; sourceTree = "<group>"; };
+		48F30D622C6DE7F200D63A4F /* PublicSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-Medium.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-Medium.ttf"; sourceTree = "<group>"; };
+		48F30D632C6DE7F200D63A4F /* PublicSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-Regular.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-Regular.ttf"; sourceTree = "<group>"; };
+		48F30D642C6DE7F200D63A4F /* PublicSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-SemiBold.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		48F30D662C6DE7F200D63A4F /* PublicSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-SemiBoldItalic.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		48F30D692C6DE84300D63A4F /* PublicSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PublicSans-Italic.ttf"; path = "../../../../Downloads/Public_Sans/static/PublicSans-Italic.ttf"; sourceTree = "<group>"; };
+		48F30D722C6DE96300D63A4F /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +113,10 @@
 			children = (
 				48F30D252C6DC5BE00D63A4F /* cheappieApp.swift */,
 				48F30D272C6DC5BE00D63A4F /* ContentView.swift */,
+				48F30D722C6DE96300D63A4F /* FontExtension.swift */,
 				48F30D292C6DC5C100D63A4F /* Assets.xcassets */,
+				48F30D542C6DCED500D63A4F /* Info.plist */,
+				48F30D4F2C6DCE8C00D63A4F /* Fonts */,
 				48F30D2B2C6DC5C100D63A4F /* Preview Content */,
 			);
 			path = cheappie;
@@ -125,6 +145,20 @@
 				48F30D422C6DC5C100D63A4F /* cheappieUITestsLaunchTests.swift */,
 			);
 			path = cheappieUITests;
+			sourceTree = "<group>";
+		};
+		48F30D4F2C6DCE8C00D63A4F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48F30D612C6DE7F200D63A4F /* PublicSans-Bold.ttf */,
+				48F30D5F2C6DE7F200D63A4F /* PublicSans-BoldItalic.ttf */,
+				48F30D642C6DE7F200D63A4F /* PublicSans-SemiBold.ttf */,
+				48F30D662C6DE7F200D63A4F /* PublicSans-SemiBoldItalic.ttf */,
+				48F30D622C6DE7F200D63A4F /* PublicSans-Medium.ttf */,
+				48F30D632C6DE7F200D63A4F /* PublicSans-Regular.ttf */,
+				48F30D692C6DE84300D63A4F /* PublicSans-Italic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F30D6A2C6DE84700D63A4F /* PublicSans-Bold.ttf in Resources */,
+				48F30D6B2C6DE84700D63A4F /* PublicSans-Medium.ttf in Resources */,
+				48F30D6D2C6DE84700D63A4F /* PublicSans-Regular.ttf in Resources */,
+				48F30D6E2C6DE84700D63A4F /* PublicSans-SemiBold.ttf in Resources */,
+				48F30D6F2C6DE84700D63A4F /* PublicSans-BoldItalic.ttf in Resources */,
+				48F30D702C6DE84700D63A4F /* PublicSans-Italic.ttf in Resources */,
+				48F30D712C6DE84700D63A4F /* PublicSans-SemiBoldItalic.ttf in Resources */,
 				48F30D2D2C6DC5C100D63A4F /* Preview Assets.xcassets in Resources */,
 				48F30D2A2C6DC5C100D63A4F /* Assets.xcassets in Resources */,
 			);
@@ -257,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F30D732C6DE96300D63A4F /* FontExtension.swift in Sources */,
 				48F30D282C6DC5BE00D63A4F /* ContentView.swift in Sources */,
 				48F30D262C6DC5BE00D63A4F /* cheappieApp.swift in Sources */,
 			);
@@ -425,6 +467,7 @@
 				DEVELOPMENT_TEAM = MFUV2GQ954;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cheappie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +497,7 @@
 				DEVELOPMENT_TEAM = MFUV2GQ954;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cheappie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
