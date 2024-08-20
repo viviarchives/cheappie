@@ -16,14 +16,18 @@ struct ContentView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "house.fill")
+                    Label("Home", systemImage: "house")
+                        
+                        .font(.Typography.caption2Medium)
                 }
             
             MoreView()
                 .tabItem {
                     Label("More", systemImage: "sparkles")
+                        .font(.Typography.caption2Medium)
                 }
         }
+        .tint(.black)
     }
 }
 
