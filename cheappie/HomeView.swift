@@ -9,8 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
-            .font(.Typography.title1Bold)
+        VStack {
+            Text("Home 800")
+                .font(.Typography.title1Bold)
+                .foregroundStyle(.blue800)
+            
+            Text("Home 900")
+                .font(.Typography.title1Bold)
+                .foregroundStyle(.blue900)
+        }
     }
 }
 
